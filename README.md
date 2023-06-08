@@ -11,6 +11,7 @@ esp32s3做的thinkpad小红点键盘主控板
 
 ![PCB](https://github.com/xing2387/esp32s3_tpkb/blob/master/pcb/Screenshot%20from%202023-06-08%2022-58-46.png)
 
+![实物](https://github.com/xing2387/esp32s3_tpkb/blob/master/pcb/IMG_20230608_232050498.jpg)
 
 ### Thanks
 
