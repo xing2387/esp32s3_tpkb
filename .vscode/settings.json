@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "esp_log.h": "c",
+        "esp_app_trace.h": "c",
+        "event_groups.h": "c",
+        "task.h": "c",
+        "nvs_flash.h": "c",
+        "sdkconfig.h": "c",
+        "keymap.h": "c",
+        "hidd_le_prf_int.h": "c",
+        "tusb.h": "c",
+        "tusb_hid.h": "c",
+        "string.h": "c",
+        "freertos.h": "c",
+        "esp_chip_info.h": "c",
+        "usb_descriptors.h": "c",
+        "pin_cfg.h": "c"
+    }
+}
