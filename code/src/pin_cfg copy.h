@@ -35,39 +35,39 @@
  ****************************************************************/
 
 // 8 column scan
-#define KB_COL_0   GPIO_NUM_47
-#define KB_COL_1   GPIO_NUM_48
-#define KB_COL_2   GPIO_NUM_45
-#define KB_COL_3   GPIO_NUM_35
-#define KB_COL_4   GPIO_NUM_36
-#define KB_COL_5   GPIO_NUM_37
-#define KB_COL_6   GPIO_NUM_38
-#define KB_COL_7   GPIO_NUM_39
+#define KB_COL_0   GPIO_NUM_12
+#define KB_COL_1   GPIO_NUM_11
+#define KB_COL_2   GPIO_NUM_10
+#define KB_COL_3   GPIO_NUM_9
+#define KB_COL_4   GPIO_NUM_3
+#define KB_COL_5   GPIO_NUM_8
+#define KB_COL_6   GPIO_NUM_18
+#define KB_COL_7   GPIO_NUM_17
 
 // 16 row scan
-#define KB_ROW_0      GPIO_NUM_5
-#define KB_ROW_1      GPIO_NUM_6
-#define KB_ROW_2      GPIO_NUM_7
-#define KB_ROW_3      GPIO_NUM_15
-#define KB_ROW_4      GPIO_NUM_16
-#define KB_ROW_5      GPIO_NUM_17
-#define KB_ROW_6      GPIO_NUM_18
-#define KB_ROW_7      GPIO_NUM_8
-#define KB_ROW_8      GPIO_NUM_3
-#define KB_ROW_9      GPIO_NUM_9
-#define KB_ROW_10     GPIO_NUM_10
-#define KB_ROW_11     GPIO_NUM_11
-#define KB_ROW_12     GPIO_NUM_12
-#define KB_ROW_13     GPIO_NUM_13
+#define KB_ROW_0      GPIO_NUM_1
+#define KB_ROW_1      GPIO_NUM_2
+#define KB_ROW_2      GPIO_NUM_42
+#define KB_ROW_3      GPIO_NUM_41
+#define KB_ROW_4      GPIO_NUM_40
+#define KB_ROW_5      GPIO_NUM_39
+#define KB_ROW_6      GPIO_NUM_38
+#define KB_ROW_7      GPIO_NUM_37
+#define KB_ROW_8      GPIO_NUM_36
+#define KB_ROW_9      GPIO_NUM_35
+#define KB_ROW_10     GPIO_NUM_45
+#define KB_ROW_11     GPIO_NUM_48
+#define KB_ROW_12     GPIO_NUM_47
+#define KB_ROW_13     GPIO_NUM_21
 #define KB_ROW_14     GPIO_NUM_14
-#define KB_ROW_15     GPIO_NUM_21
+#define KB_ROW_15     GPIO_NUM_13
 
 // Buttons
 // #define BUTTON_MIDDLE 0
-#define BUTTON_FN     GPIO_NUM_2
+#define BUTTON_FN     GPIO_NUM_5
 
 // LED
-// #define LED_CAPLK     GPIO_NUM_6
+#define LED_CAPLK     GPIO_NUM_6
 // #define LED_FNLK      43
 // #define LED_F1        1
 // #define LED_NUMLK     44
@@ -75,9 +75,9 @@
 // #define LED_F4        7
 
 // Trackpad GPIO
-#define PS2_DATA_PIN    GPIO_NUM_40
-#define PS2_CLK_PIN     GPIO_NUM_41
-#define PS2_RESET_PIN   GPIO_NUM_42
+#define PS2_DATA_PIN    GPIO_NUM_16
+#define PS2_CLK_PIN     GPIO_NUM_15
+#define PS2_RESET_PIN   GPIO_NUM_7
 
 // USB charging detection
 // #define CHARGING_PIN    2
@@ -85,8 +85,8 @@
 // #define BUTTON_MIDDLE_STATE gpio_get_level(BUTTON_MIDDLE)
 #define BUTTON_FN_STATE     gpio_get_level(BUTTON_FN)
 
-// #define LED_CAPLK_ON    gpio_set_level(LED_CAPLK, 0)
-// #define LED_CAPLK_OFF   gpio_set_level(LED_CAPLK, 1)
+#define LED_CAPLK_ON    gpio_set_level(LED_CAPLK, 0)
+#define LED_CAPLK_OFF   gpio_set_level(LED_CAPLK, 1)
 // #define LED_FNLK_ON     gpio_set_level(LED_FNLK, 0)
 // #define LED_FNLK_OFF    gpio_set_level(LED_FNLK, 1)
 // #define LED_F1_ON       gpio_set_level(LED_F1, 0)
